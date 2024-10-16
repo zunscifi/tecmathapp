@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,6 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body class="font-sans bg-gray-100">
+    <!-- Header Section -->
     <header class="fixed top-0 left-0 right-0 z-50 bg-transparent">
         <nav class="container mx-auto px-6 py-3 flex justify-between items-center">
             <a href="#" class="text-2xl font-bold text-white">tecmathapp</a>
@@ -18,20 +18,52 @@
         </nav>
     </header>
 
-    <main>
-<!-- 
-        <section id="download" class="py-20 bg-gray-100">
+    <!-- Main Content -->
+    <main class="mt-16">
+        <!-- Hero Section -->
+        <section class="bg-gray-900 text-white py-20">
             <div class="container mx-auto px-6 text-center">
-                <h2 class="text-3xl font-bold text-gray-800 mb-8">Download tecmathapp</h2>
-                <div class="flex justify-center">
-                    <a href="#" class="bg-black text-white px-8 py-3 rounded-full font-bold hover:bg-gray-800 transition duration-300 flex items-center">
-                        <i class="fab fa-apple mr-2"></i> App Store
-                    </a>
+                <h1 class="text-4xl font-bold mb-6">Welcome to tecmathapp</h1>
+                <p class="text-lg mb-8">Creating innovative apps for the world, available exclusively on the App Store.</p>
+                <a href="#apps" class="bg-blue-600 text-white px-8 py-3 rounded-full hover:bg-blue-700 transition duration-300">Explore Our Apps</a>
+            </div>
+        </section>
+
+        <!-- Apps Section -->
+        <section id="apps" class="py-20 bg-gray-100">
+            <div class="container mx-auto px-6">
+                <h2 class="text-3xl font-bold text-gray-800 mb-8 text-center">Our Apps</h2>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <!-- App 1: Video2Gif -->
+                    <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                        <h3 class="text-2xl font-bold text-gray-800 mb-4">Video2Gif</h3>
+                        <p class="text-gray-600 mb-4">Convert your videos into high-quality GIFs in just a few taps. Available now on the App Store.</p>
+                        <a href="#" class="bg-black text-white px-6 py-2 rounded-full font-bold hover:bg-gray-800 transition duration-300 inline-flex items-center">
+                            <i class="fab fa-apple mr-2"></i> App Store
+                        </a>
+                    </div>
+                    <!-- App 2: Love Quotes -->
+                    <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                        <h3 class="text-2xl font-bold text-gray-800 mb-4">Love Quotes</h3>
+                        <p class="text-gray-600 mb-4">Get inspired with daily love quotes, curated from the heart. Available now on the App Store.</p>
+                        <a href="#" class="bg-black text-white px-6 py-2 rounded-full font-bold hover:bg-gray-800 transition duration-300 inline-flex items-center">
+                            <i class="fab fa-apple mr-2"></i> App Store
+                        </a>
+                    </div>
+                    <!-- App 3: Coming Soon -->
+                    <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                        <h3 class="text-2xl font-bold text-gray-800 mb-4">More Apps Coming Soon</h3>
+                        <p class="text-gray-600 mb-4">Stay tuned as we continue to bring new, exciting apps to the App Store.</p>
+                        <a href="#" class="bg-black text-white px-6 py-2 rounded-full font-bold hover:bg-gray-800 transition duration-300 inline-flex items-center">
+                            <i class="fab fa-apple mr-2"></i> App Store
+                        </a>
+                    </div>
                 </div>
             </div>
-        </section> -->
+        </section>
     </main>
 
+    <!-- Footer Section -->
     <footer class="bg-gray-800 text-white py-6">
         <div class="container mx-auto px-6">
             <div class="text-center text-gray-400">
